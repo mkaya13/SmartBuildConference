@@ -1,6 +1,6 @@
 # Setup-and-Mobile-First
 
-Main page and about page are implemented
+Mobile versions of the Main page and about page are implemented for the SmartBuild Conference page.
 
 ## Live Demo
 
