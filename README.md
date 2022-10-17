@@ -4,7 +4,7 @@ Main page and about page are implemented
 
 ## Live Demo
 
-https://mkaya13.github.io/portfolio.github.io/
+https://mkaya13.github.io/SmartBuildConference/
 
 ## Built With
 
