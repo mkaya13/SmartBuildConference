@@ -55,6 +55,7 @@ li.network-icons-list:hover {
 .main-page {
   background-image: url('../img/main-background-image.svg');
   background-position: 100% 100%;
+
   /* background by SVGBackgrounds.com */
 }
 
@@ -64,14 +65,10 @@ li.network-icons-list:hover {
   justify-content: center;
   align-content: center;
   align-items: center;
-  align-text: center;
-}
-
-.main-page-logo {
-  margin-top: 35%;
 }
 
 .main-page-campaign {
+  display: none;
   border: 2px solid coral;
   padding: 10px;
   box-sizing: border-box;
@@ -121,23 +118,16 @@ li.network-icons-list:hover {
 
 .main-page-logo {
   display: none;
+  height: 70px;
+  width: 100px;
 }
 
 .main-page-logo.active {
   display: flex;
 }
 
-.main-page-campaign {
-  display: none;
-}
-
 .main-page-campaign.active {
   display: flex;
-}
-
-.main-page-logo {
-  height: 70px;
-  width: 100px;
 }
 
 .main-page-subtitle {
@@ -148,13 +138,10 @@ li.network-icons-list:hover {
 }
 
 .main-page-title {
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-.main-page-title {
   font-size: 30px;
   color: #ec5242;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .main-page-paragraph {
@@ -162,14 +149,12 @@ li.network-icons-list:hover {
   justify-content: center;
   align-content: center;
   align-items: center;
-  align-text: center;
   padding-left: 13%;
   padding-right: 10%;
   padding-top: 8%;
   font-size: 16px;
   color: #272a31;
   border: 1px solid #dcdcdc;
-  padding: 10px;
   box-sizing: border-box;
   margin-left: 5%;
   margin-right: 5%;
@@ -188,6 +173,10 @@ li.network-icons-list:hover {
   font-weight: bold;
 }
 
+.logo-section {
+  padding-top: 3%;
+}
+
 .main-page + .logo-section {
   margin-top: 12.5%;
 }
@@ -199,10 +188,6 @@ li.network-icons-list:hover {
 
 .mail-anchor {
   color: #272a31;
-}
-
-.logo-section {
-  padding-top: 3%;
 }
 
 .logo-creative {
@@ -250,7 +235,6 @@ li.network-icons-list:hover {
   justify-content: center;
   align-content: center;
   align-items: center;
-  align-text: center;
   margin-top: 10%;
 }
 
@@ -270,7 +254,6 @@ li.network-icons-list:hover {
   justify-content: center;
   align-content: center;
   align-items: center;
-  align-text: center;
   font-size: 18px;
   font-weight: bold;
   padding-left: 10%;
@@ -323,15 +306,15 @@ li.network-icons-list:hover {
   align-content: center;
 }
 
-.partners-ul-1 + .partners-ul-2 {
-  padding-top: 10px;
-}
-
 .partners-ul-2 {
   display: flex;
   justify-content: center;
   align-content: center;
   padding-bottom: 50px;
+}
+
+.partners-ul-1 + .partners-ul-2 {
+  padding-top: 10px;
 }
 
 .partners {
@@ -358,23 +341,13 @@ li.network-icons-list:hover {
   margin-top: 20%;
 }
 
-.partners-img {
-  width: 220px;
-  height: 100px;
-}
-
-.partners-img:hover {
-  transform: scale(1.1);
-}
-
 footer {
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
-  padding-right: 50%;
-  height: 0vh;
-  padding: 100px 0px;
+  height: 0;
+  padding: 100px 0;
   background-color: white;
 }
 
@@ -389,7 +362,6 @@ footer {
   display: flex;
   justify-content: center;
   align-content: center;
-  align-text: center;
   margin-left: 6%;
 }
 
@@ -431,6 +403,7 @@ footer {
     padding-left: 12.5%;
     padding-right: 12.5%;
   }
+
   .card-item {
     display: flex;
     align-items: center;
@@ -453,15 +426,6 @@ footer {
   .social-icons-section {
     display: none;
   }
-}
-
-@media all and (min-height: 600px) and (max-height: 800px) {
-}
-
-@media all and (min-height: 840px) and (max-height: 850px) {
-}
-
-@media all and (min-height: 850px) and (max-height: 1000px) {
 }
 
 @media (min-width: 768px) {
@@ -500,9 +464,6 @@ footer {
 
   .main-page-campaign {
     display: flex;
-  }
-
-  .main-page-logo {
     margin-top: 0%;
   }
 
@@ -516,9 +477,6 @@ footer {
 
   .main-page-title {
     font-size: 50px;
-  }
-
-  .main-page-title {
     padding-top: 1%;
     padding-bottom: 1%;
   }
@@ -529,9 +487,6 @@ footer {
     align-content: center;
     align-items: center;
     text-align: center;
-    padding-left: 13%;
-    padding-right: 10%;
-    padding-top: 8%;
     font-size: 16px;
     color: #272a31;
     border: 1px solid #dcdcdc;
@@ -565,6 +520,7 @@ footer {
     padding-right: 20%;
     margin-top: 3%;
   }
+
   .card-item {
     display: flex;
     height: 90%;
@@ -613,7 +569,6 @@ footer {
     justify-content: center;
     align-content: center;
     align-items: center;
-    align-text: center;
     margin-top: 3%;
   }
 
@@ -622,10 +577,9 @@ footer {
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding-right: 50%;
     height: 5vh;
     margin-top: 5%;
-    padding: 100px 0px;
+    padding-left: 100px;
     background-color: #272a31;
   }
 

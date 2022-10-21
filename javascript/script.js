@@ -84,7 +84,6 @@ toggleButton.addEventListener('click', () => {
   navbarContent.classList.toggle('active');
   mainPageLogo.classList.toggle('active');
   mainPageCampaign.classList.toggle('active');
-  console.log(mainPageHeight.style);
   mainPageHeight.classList.toggle('active');
 });
 
