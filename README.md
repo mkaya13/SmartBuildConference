@@ -51,6 +51,8 @@ Through Github
 ## 🤝 Contributing
 
 Thanks the microverse team their great contributions.
+Background image by https://www.svgbackgrounds.com/
+Thanks CreativeCommons for the template idea https://creativecommons.org/
 
 ## Show your support
 
