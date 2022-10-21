@@ -51,19 +51,6 @@ li.network-icons-list:hover {
   background-image: url('../img/main-background-image.svg');
 }
 
-.main-page-logo {
-  margin-top: 35%;
-}
-
-.main-page-campaign {
-  border: 2px solid coral;
-  padding: 10px;
-  box-sizing: border-box;
-  font-size: 16px;
-  color: #ec5242;
-  font-weight: bold;
-}
-
 .toggle-button {
   flex-direction: column;
   justify-content: space-between;
@@ -103,15 +90,17 @@ li.network-icons-list:hover {
   display: inline-block;
 }
 
-.main-page-logo {
-  display: none;
-}
-
 .main-page-logo.active {
   display: flex;
 }
 
 .main-page-campaign {
+  border: 2px solid coral;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #ec5242;
+  font-weight: bold;
   display: none;
 }
 
@@ -381,14 +370,11 @@ h2 + span {
 .main-page-logo {
   height: 70px;
   width: 100px;
+  display: none;
+  margin-top: 35%;
 }
 
 @media (max-width: 768px) {
-  .main-page {
-    background-image: url('../img/main-background-image.svg');
-    background-position: px 0;background-position;
-  }
-
   nav {
     display: inline-block;
     align-items: center;
@@ -413,7 +399,7 @@ h2 + span {
     display: flex;
     justify-content: center;
     align-content: center;
-    align-text: center;
+    text-align: center;
     flex-wrap: wrap;
   }
 
@@ -422,7 +408,7 @@ h2 + span {
     display: flex;
     justify-content: center;
     align-content: center;
-    align-text: center;
+    text-align: center;
     flex-wrap: wrap;
   }
 
@@ -431,7 +417,7 @@ h2 + span {
     display: flex;
     justify-content: center;
     align-content: center;
-    align-text: center;
+    text-align: center;
     flex-wrap: wrap;
   }
 
@@ -505,9 +491,6 @@ h2 + span {
 
   .main-page {
     background-image: url('../img/main-background-image.svg');
-    */
-    /* background by SVGBackgrounds.com */
-    background-repeat: no-repeat;
     background-position: 30px 50%;
   }
 
@@ -539,14 +522,11 @@ h2 + span {
 
   .main-page-logo {
     display: flex;
+    margin-top: 0%;
   }
 
   .main-page-campaign {
     display: flex;
-  }
-
-  .main-page-logo {
-    margin-top: 0%;
   }
 
   .main-page-logo + .navbar-content {
@@ -565,11 +545,8 @@ h2 + span {
   }
 
   .main-page-paragraph {
-    padding-left: 18%;
-    padding-right: 20%;
     margin-right: 10%;
     margin-top: 3.5%;
-    padding-top: 3%;
     font-size: 16px;
     line-height: 25px;
     color: #272a31;
@@ -659,6 +636,8 @@ h2 + span {
 
   .box-speaker {
     display: flex;
+    width: 520px;
+    height: 90px;
     border: none;
     flex-wrap: wrap;
     align-content: center;
@@ -674,11 +653,6 @@ h2 + span {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-  }
-
-  .box-speaker {
-    width: 520px;
-    height: 90px;
   }
 
   .speaker-desktop-box {
@@ -711,7 +685,6 @@ h2 + span {
     display: block;
     justify-content: center;
     align-content: center;
-    align-text: center;
   }
 
   .speakers-desktop-title {
@@ -793,11 +766,7 @@ h2 + span {
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding-right: 50%;
     height: 15vh;
-  }
-
-  footer {
     padding: 100px 0;
     background-color: white;
   }

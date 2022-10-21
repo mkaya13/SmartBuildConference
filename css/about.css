@@ -167,7 +167,7 @@ li.network-icons-list:hover {
   color: #272a31;
   padding: 10px;
   box-sizing: border-box;
-  padding-top: 5%;
+  padding-top: 3%;
   padding-left: 10%;
   padding-right: 10%;
   font-weight: bold;
@@ -412,17 +412,6 @@ footer {
     border: 1px solid #666;
   }
 
-  .main-page-contact {
-    font-size: 16px;
-    color: #272a31;
-    padding: 10px;
-    box-sizing: border-box;
-    padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-weight: bold;
-  }
-
   .social-icons-section {
     display: none;
   }
@@ -531,16 +520,6 @@ footer {
     display: none;
   }
 
-  .main-page-contact {
-    font-size: 16px;
-    color: #272a31;
-    padding: 10px;
-    box-sizing: border-box;
-    padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
   .logo-hr {
     margin-top: 1%;
     margin-bottom: 1%;
@@ -578,7 +557,6 @@ footer {
     align-content: center;
     align-items: center;
     height: 5vh;
-    margin-top: 5%;
     padding-left: 100px;
     background-color: #272a31;
   }
