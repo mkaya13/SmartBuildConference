@@ -386,7 +386,7 @@ h2 + span {
 @media (max-width: 768px) {
   .main-page {
     background-image: url('../img/main-background-image.svg');
-    background-position: px 0;background-position
+    background-position: px 0;background-position;
   }
 
   nav {
