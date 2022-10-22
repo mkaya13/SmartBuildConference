@@ -34,6 +34,7 @@ nav ul li a {
   align-items: center;
   background-color: grey;
   height: 4vh;
+  background-color: #272a31;
 }
 
 .social-icons {
@@ -46,6 +47,17 @@ nav ul li a {
 .social-icon {
   color: #fff;
   font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.fa-facebook-f {
+  color: white;
+  cursor: pointer;
+}
+
+.fa-twitter {
+  color: white;
+  cursor: pointer;
 }
 
 li.network-icons-list:hover {

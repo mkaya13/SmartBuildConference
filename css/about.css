@@ -36,8 +36,18 @@ nav ul li a:hover {
   flex-direction: row-reverse;
   align-content: center;
   align-items: center;
-  background-color: grey;
+  background-color: #272a31;
   height: 4vh;
+}
+
+.fa-facebook-f {
+  color: white;
+  cursor: pointer;
+}
+
+.fa-twitter {
+  color: white;
+  cursor: pointer;
 }
 
 .social-icons {
@@ -50,6 +60,7 @@ nav ul li a:hover {
 .social-icon {
   color: #fff;
   font-family: 'Poppins', sans-serif;
+  cursor: pointer;
 }
 
 li.network-icons-list:hover {
