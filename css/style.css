@@ -32,7 +32,6 @@ nav ul li a {
   flex-direction: row-reverse;
   align-content: center;
   align-items: center;
-  background-color: grey;
   height: 4vh;
   background-color: #272a31;
 }
