@@ -51,8 +51,6 @@ Through Github
 ## 🤝 Contributing
 
 Thanks the microverse team their great contributions.
-Background image by https://www.svgbackgrounds.com/
-Thanks CreativeCommons for the template idea https://creativecommons.org/
 
 ## Show your support
 
@@ -61,6 +59,9 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Inspired by the 1th capstone project.
+- Background image by https://www.svgbackgrounds.com/
+- Thanks CreativeCommons for the template idea https://creativecommons.org/
+- Thanks Cindy Shin for the template https://www.behance.net/adagio07
 
 ## 📝 License
 
